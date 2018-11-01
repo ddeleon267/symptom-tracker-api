@@ -4,7 +4,11 @@
 # PUT /api/entries/:id
 # DELETE /api/entries/:id
 
-
+# entry model
+# cycle number
+# cycle day
+# date
+# notes
 
 
 
