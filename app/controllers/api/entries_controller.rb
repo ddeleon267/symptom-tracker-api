@@ -37,6 +37,7 @@ class Api::EntriesController < ApplicationController
 
   private
 
+#helper methods
     def set_entry
       @entry = Entry.find_by(id: params[:id])
     end

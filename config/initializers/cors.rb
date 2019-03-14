@@ -7,7 +7,8 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'localhost:3000'
+    origins 'localhost:3000' #if I make an API call from this domain, I can make
+    # all the method calls below to my backend
 
     resource '*',
       headers: :any,

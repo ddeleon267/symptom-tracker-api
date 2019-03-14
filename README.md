@@ -1,5 +1,5 @@
-# GET /api/entries
-# GET /api/entries/:id
+# GET /api/entries /
+# GET /api/entries/:id   /
 # POST /api/entries
 # PUT /api/entries/:id
 # DELETE /api/entries/:id
